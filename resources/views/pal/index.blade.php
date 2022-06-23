@@ -43,7 +43,7 @@
                 <label for="pal_id">Id Domownika:</label>
                 <div class="input-group mb-3">
                     <input class="form-control text-light" type="text" id="pal_id" name="pal_id"
-                        placeholder="Proszę podać id Klienta" value="{{ old('pal_id') }}">
+                        placeholder="Proszę podać id Domownika" value="{{ old('pal_id') }}">
                     <button type="submit" class="btn btn-outline-light">
                         Wyszukaj
                     </button>
