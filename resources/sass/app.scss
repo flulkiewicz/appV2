@@ -1,0 +1,93 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.yellow-text {
+    color: $yellow-color;
+}
+
+
+body {
+    color: white !important;
+}
+
+nav {
+    text-transform: uppercase;
+    a {
+        color: yellow;
+    }
+
+    a:hover {
+        color: #039dff;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: #039dff;
+    }
+}
+
+header {
+    color: #fff h1 {
+        text-transform: uppercase;
+    }
+
+    .hero-img {
+        position: relative;
+        height: 100vh;
+        background: url(../../public/image/homeSm.jpg);
+        background-position: center;
+        background-size: cover;
+        z-index: 0;
+    }
+
+    .hero-shadow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: -10;
+    }
+
+    .hero-text {
+        h1 {
+            text-transform: uppercase;
+        }
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        z-index: 5;
+    }
+}
+
+@media(min-width: 1200px) {
+    header {
+        .hero-img {
+            background: url(../../public/image/homeLg.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .hero-text {
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+}
