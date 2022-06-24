@@ -3,7 +3,7 @@
 @section('title', 'Wyszukiwanie zadań')
 
 @section('content')
-    <div>
+    <div class="result-search">
         <h1 class="text-center mt-3">Dane Klienta - id: #{{ $task->id }}</h1>
         <div class="row mt-1">
             <div class="col-12">

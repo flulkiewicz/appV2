@@ -36,7 +36,7 @@
     @endif
 
 
-        <div class="row mt-4">
+        <div class="row mt-4 result-search">
             <div class="col-12">
                 <table class="table">
                     <tr>

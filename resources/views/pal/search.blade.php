@@ -3,7 +3,7 @@
 @section('title', 'Wyszukiwanie Domowników')
 
 @section('content')
-    <div class="container d-flex-column justify-content-center pal-search p-4">
+    <div class="container d-flex-column justify-content-center result-search p-4">
         <h1 class="text-center mt-3">Dane <span class="yellow-text">Domownika</span> - id: #<span class="blue-text">{{ $pal->id }}</span></h1>
         <div class="row mt-5 text-center">
             <div class="col-12">
