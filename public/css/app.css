@@ -11290,8 +11290,16 @@ textarea.form-control-lg {
   color: yellow;
 }
 
+.blue-text {
+  color: #039dff;
+}
+
 body {
   color: white !important;
+}
+body .pal-search {
+  border-radius: 15px;
+  background-color: rgb(24, 24, 24);
 }
 
 nav {

@@ -3,31 +3,32 @@
 @section('title', 'Wyszukiwanie Domowników')
 
 @section('content')
-    <div>
-        <h1 class="text-center mt-3">Dane Domownika - id: #{{ $pal->id }}</h1>
-        <div class="row mt-1">
+    <div class="container d-flex-column justify-content-center pal-search p-4">
+        <h1 class="text-center mt-3">Dane <span class="yellow-text">Domownika</span> - id: #<span class="blue-text">{{ $pal->id }}</span></h1>
+        <div class="row mt-5 text-center">
             <div class="col-12">
-                <p>Imię: {{ $pal->first_name }}</p>
+                <p><span class="blue-text">Imię:</span> {{ $pal->first_name }}</p>
             </div>
         </div>
-        <div class="row mt-1">
+        <div class="row mt-1 text-center">
             <div class="col-12">
-                <p>Nazwisko: {{ $pal->last_name }}</p>
+                <p><span class="blue-text">Nazwisko:</span> {{ $pal->last_name }}</p>
             </div>
         </div>
-        <div class="row mt-1">
+        <div class="row mt-1 text-center">
             <div class="col-12">
-                <p>Telefon: {{ $pal->phone }}</p>
+                <p><span class="blue-text">Telefon:</span>  {{ $pal->phone }}</p>
             </div>
         </div>
-
-        <td>
-            <a class="btn btn-sm btn-warning"
+        
+        <div class="mt-5 mb-5 text-center">
+            <a class="btn btn-sm btn-warning "
                href="{{ route('pal.index') }}"
             >
                 Wróć
             </a>
-        </td>
+        </div>
+        
     </div>
 
 @endsection
